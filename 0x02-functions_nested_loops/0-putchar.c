@@ -1,4 +1,5 @@
 #include <studio.h>
+#include <main.h>
 /**
  * main - print new line for putchar
  *
@@ -8,6 +9,6 @@ int main(void)
 	int (new line);
 
 {
-	putchar ('\n');
-	return (0);
+        	putchar('\n');
+		return (0);
 }
