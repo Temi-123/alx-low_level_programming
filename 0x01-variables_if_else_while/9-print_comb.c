@@ -5,19 +5,17 @@
  * Return: return(0)
  */
 int main(void)
-{ 
-          int digit;
+{
+	int digit;
 
- for(digit = 0; digit < 10; digit++)
-	  {
-		  if (digit == 9)
+	for (digit = 0; digit < 10; digit++)
 	{
-		  putchar(digit);
-	{	  
-		  putchar(' ');
-		  putchar(',');
+		if (digit == 9)
+		putchar(digit);
+		putchar(',');
+		putchar(' ');
 	}
-	}
-	  putchar('\n');
-return (0);
+	putchar('\n');
+	return (0);
 }
+
