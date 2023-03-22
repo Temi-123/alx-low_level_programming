@@ -6,9 +6,12 @@
  * Return: return(0)
  */
 int main(void)
-	int (new line);
-
 {
-        	putchar('\n');
-		return (0);
+	char str[] = "_putchar";
+	int i;
+
+	for (i = 0; i < 8; i++)
+		_putchar (str[i]);
+          	putchar('\n');
+return(0);
 }
