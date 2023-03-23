@@ -1,17 +1,17 @@
 #include "main.h"
 /**
- * main - check if argument is alpha
+ * -isalpha: check if arguement with character
+ * @c: the character to be checked
  *
  * Return: Return(0)
  */
-int main(void)
-	int (n)
+
+int _isalpha(int c)
 {
-	int_isalpha(int c)
-	{
 		if (c >= 97 && c <= 122)
+	{
 			return (1);
-		else
-			return (0);
 	}
-'}'
+	
+			return (0);
+}
