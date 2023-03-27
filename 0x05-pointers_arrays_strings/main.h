@@ -1,4 +1,4 @@
 #ifndef MAIN_H
 #define MAIN_H
-void _puts(char *str)
+char *_strcpy(char *dest, char *src);
 #endif
