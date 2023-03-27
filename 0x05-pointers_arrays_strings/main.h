@@ -1,4 +1,4 @@
 #ifndef MAIN_H
 #define MAIN_H
-int _atoi(char *s);
+void rev_string(char *s);
 #endif
