@@ -1,4 +1,4 @@
 #ifndef MAIN_H
 #define MAIN_H
-char *rot13(char *);
+void print_buffer(char *b, int size);
 #endif
