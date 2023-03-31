@@ -1,5 +1,5 @@
 #ifndef MAIN_H
 #define MAIN_H
-void reverse_array(int *a, int n);
+char *infinite_add(char *n1, char *n2, char *r, int size_r);
 int _putchar(char c);
 #endif
